@@ -1,11 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>psoframework</groupId>
-  <artifactId>psoframework</artifactId>
+  <groupId>psoforj</groupId>
+  <artifactId>psoforj</artifactId>
   <version>0.0.1</version>
-  <name>PSOFramework</name>
-  <description>A framework to help the build of particle swarm optimization algorithms </description>
-  <url>https://github.com/assj/PSOFramework</url>
+  <name>PSOForJ</name>
+  <url>https://github.com/assj/PSOForJ</url>
   
   <dependencies>
   	<dependency>
@@ -14,12 +13,13 @@
       <version>1.0.1</version>
     </dependency>
   	
-  	<!-- https://mvnrepository.com/artifact/com.googlecode.charts4j/charts4j -->
+  	<!-- https://mvnrepository.com/artifact/jfree/jfreechart -->
 	<dependency>
-	    <groupId>com.googlecode.charts4j</groupId>
-	    <artifactId>charts4j</artifactId>
-	    <version>1.3</version>
+	    <groupId>jfree</groupId>
+	    <artifactId>jfreechart</artifactId>
+	    <version>1.0.13</version>
 	</dependency>
   	
   </dependencies>
+  <description>A Java library for particle swarm optimization algorithms.</description>
 </project>
