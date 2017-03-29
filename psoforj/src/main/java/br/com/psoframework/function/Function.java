@@ -10,6 +10,8 @@ public abstract class Function {
 	 * 
 	 * @param position - Posição a ser avaliada pela função de "fitness"
 	 * @return Aptidão da posição passada como parâmetro para essa função
+	 * 
+	 * @author Airton Júnior
 	 */
 	public abstract double fitness(double[] position);
 	
