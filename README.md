@@ -1,2 +1,3 @@
-# PSOFramework
-A framework to help the build of particle swarm optimization algorithms
+# PSOForJ
+
+A Java library for particle swarm optimization algorithms.
