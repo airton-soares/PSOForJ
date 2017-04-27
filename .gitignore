@@ -5,6 +5,6 @@
 
 \.settings/
 
-psoforj/bin/
+\bin/
 
-psoforj/target/
+\target/
