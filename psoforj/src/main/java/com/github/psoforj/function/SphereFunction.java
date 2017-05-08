@@ -1,4 +1,4 @@
-package br.com.psoforj.function;
+package com.github.psoforj.function;
 
 public class SphereFunction extends Function {
 

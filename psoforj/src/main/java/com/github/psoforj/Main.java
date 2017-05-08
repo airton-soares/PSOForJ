@@ -1,11 +1,11 @@
-package br.com.psoforj;
+package com.github.psoforj;
 
 import javax.swing.JFrame;
 
 import org.math.plot.Plot2DPanel;
 
-import br.com.psoforj.function.*;
-import br.com.psoforj.population.TopologyType;
+import com.github.psoforj.function.*;
+import com.github.psoforj.population.TopologyType;
 
 public class Main {
 	/**

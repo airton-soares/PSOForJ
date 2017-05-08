@@ -1,6 +1,6 @@
-package br.com.psoforj.population;
+package com.github.psoforj.population;
 
-import br.com.psoforj.particle.Particle;
+import com.github.psoforj.particle.Particle;
 
 public class SubPopulation {
 	private Particle[] particles;

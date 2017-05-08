@@ -1,8 +1,8 @@
-package br.com.psoforj.function;
+package com.github.psoforj.function;
 
-public class RotatedRastriginFunction extends Function {
+public class RosenbrockFunction extends Function {
 
-	public RotatedRastriginFunction(double bottomDomainLimit, double topDomainLimit) {
+	public RosenbrockFunction(double bottomDomainLimit, double topDomainLimit) {
 		super(bottomDomainLimit, topDomainLimit);
 	}
 	
@@ -10,8 +10,8 @@ public class RotatedRastriginFunction extends Function {
 	public double fitness(double[] position) {
 		double fitness = 0;
 				
-		for(int i = 0; i < position.length; i++){
-			fitness += Math.pow(position[i], 2) - 10 * Math.cos(2 * Math.PI * position[i]) + 10;
+		for(int i = 0; i < position.length - 1; i++){
+			fitness += 100 * Math.pow((Math.pow(position[i], 2) - position[i + 1]), 2) + Math.pow(position[i] - 1, 2);
 		}
 		
 		return fitness;

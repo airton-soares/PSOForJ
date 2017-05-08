@@ -1,4 +1,4 @@
-package br.com.psoforj.population;
+package com.github.psoforj.population;
 
 public enum TopologyType {
 	GLOBAL,
