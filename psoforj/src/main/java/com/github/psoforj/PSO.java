@@ -1,11 +1,11 @@
-package br.com.psoforj;
+package com.github.psoforj;
 
-import br.com.psoforj.function.Function;
-import br.com.psoforj.particle.Particle;
-import br.com.psoforj.population.Population;
-import br.com.psoforj.population.SubPopulation;
-import br.com.psoforj.population.TopologyType;
-import br.com.psoforj.util.PSOConstants;
+import com.github.psoforj.function.Function;
+import com.github.psoforj.particle.Particle;
+import com.github.psoforj.population.Population;
+import com.github.psoforj.population.SubPopulation;
+import com.github.psoforj.population.TopologyType;
+import com.github.psoforj.util.PSOConstants;
 
 public class PSO {
 	private Function function;

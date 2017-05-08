@@ -1,4 +1,4 @@
-package br.com.psoforj.function;
+package com.github.psoforj.function;
 
 public abstract class Function {
 	private double bottomDomainLimit;

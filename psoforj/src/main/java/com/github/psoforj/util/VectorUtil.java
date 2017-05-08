@@ -1,4 +1,4 @@
-package br.com.psoforj.util;
+package com.github.psoforj.util;
 
 import java.util.concurrent.ThreadLocalRandom;
 

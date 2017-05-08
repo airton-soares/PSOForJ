@@ -1,9 +1,9 @@
-package br.com.psoforj.population;
+package com.github.psoforj.population;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.psoforj.particle.Particle;
+import com.github.psoforj.particle.Particle;
 
 public class Population {
 	private List<SubPopulation> subPopulationList;

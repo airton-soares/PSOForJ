@@ -1,6 +1,6 @@
-package br.com.psoforj.particle;
+package com.github.psoforj.particle;
 
-import br.com.psoforj.util.VectorUtil;
+import com.github.psoforj.util.VectorUtil;
 
 public class Particle {
 	private double[] currentPosition;
