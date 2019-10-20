@@ -2,42 +2,35 @@ package com.github.psoforj.population;
 
 import com.github.psoforj.particle.Particle;
 
-public class SubPopulation
-{
-    private Particle[] particles;
-    private double[] bestPosition;
-    private int dimension;
+public class SubPopulation {
+  private Particle[] particles;
+  private double[] bestPosition;
+  private int dimension;
 
-    public SubPopulation(int dimension, Particle[] particles)
-    {
-	this.particles = particles;
-	this.bestPosition = this.particles[0].getBestPosition();
-	this.dimension = dimension;
-    }
+  public SubPopulation(int dimension, Particle[] particles) {
+    this.particles = particles;
+    this.bestPosition = this.particles[0].getBestPosition();
+    this.dimension = dimension;
+  }
 
-    public Particle[] getParticles()
-    {
-	return particles;
-    }
+  public Particle[] getParticles() {
+    return particles;
+  }
 
-    public void setParticles(Particle[] particles)
-    {
-	this.particles = particles.clone();
-    }
+  public void setParticles(Particle[] particles) {
+    this.particles = particles.clone();
+  }
 
-    public double[] getBestPosition()
-    {
-	return bestPosition;
-    }
+  public double[] getBestPosition() {
+    return bestPosition;
+  }
 
-    public void setBestPosition(double[] bestPosition)
-    {
-	this.bestPosition = bestPosition.clone();
-    }
+  public void setBestPosition(double[] bestPosition) {
+    this.bestPosition = bestPosition.clone();
+  }
 
-    public int getDimension()
-    {
-	return dimension;
-    }
+  public int getDimension() {
+    return dimension;
+  }
 
 }
